@@ -1,0 +1,15 @@
+
+dependencies:
+  - python=3.11.6
+  - numpy=1.26.4
+  - pandas=2.2.1
+  - scipy=1.11.4
+  - scikit-learn=1.5.0
+  - matplotlib=3.8.3
+  - pytorch=2.2.1
+  - torchvision=0.17.1
+  - cpuonly  # remove if using GPU
+  - tqdm=4.66.2
+  - pip
+  - pip:
+      - ruptures==1.1.8
